@@ -1,0 +1,4 @@
+layer,input_dim,output_dim,activation_fn,perceptron_weights_path,perceptron_biases_path,bn_weights_path,bn_biases_path,bn_mean_path,bn_var_path
+1,784,128,relu,mnist_model/Perceptrons1.weight.npy,mnist_model/Perceptrons1.bias.npy,mnist_model/BatchNorm1.weight.npy,mnist_model/BatchNorm1.bias.npy,mnist_model/BatchNorm1.mean.npy,mnist_model/BatchNorm1.var.npy
+2,128,128,relu,mnist_model/Perceptrons2.weight.npy,mnist_model/Perceptrons2.bias.npy,mnist_model/BatchNorm2.weight.npy,mnist_model/BatchNorm2.bias.npy,mnist_model/BatchNorm2.mean.npy,mnist_model/BatchNorm2.var.npy
+3,128,10,softmax,mnist_model/Perceptrons3.weight.npy,mnist_model/Perceptrons3.bias.npy,mnist_model/BatchNorm3.weight.npy,mnist_model/BatchNorm3.bias.npy,mnist_model/BatchNorm3.mean.npy,mnist_model/BatchNorm3.var.npy
